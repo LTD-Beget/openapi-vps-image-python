@@ -1,0 +1,38 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from beget_openapi_vps-image.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from beget_openapi_vps-image.model.image_create_image_request import ImageCreateImageRequest
+from beget_openapi_vps-image.model.image_create_image_response import ImageCreateImageResponse
+from beget_openapi_vps-image.model.image_create_image_response_error import ImageCreateImageResponseError
+from beget_openapi_vps-image.model.image_delete_image_response import ImageDeleteImageResponse
+from beget_openapi_vps-image.model.image_delete_image_response_error import ImageDeleteImageResponseError
+from beget_openapi_vps-image.model.image_download_link_info import ImageDownloadLinkInfo
+from beget_openapi_vps-image.model.image_get_calculation_response import ImageGetCalculationResponse
+from beget_openapi_vps-image.model.image_get_calculation_response_error import ImageGetCalculationResponseError
+from beget_openapi_vps-image.model.image_get_download_link_response import ImageGetDownloadLinkResponse
+from beget_openapi_vps-image.model.image_get_download_link_response_error import ImageGetDownloadLinkResponseError
+from beget_openapi_vps-image.model.image_get_list_response import ImageGetListResponse
+from beget_openapi_vps-image.model.image_get_region_list_response import ImageGetRegionListResponse
+from beget_openapi_vps-image.model.image_image import ImageImage
+from beget_openapi_vps-image.model.image_image_source import ImageImageSource
+from beget_openapi_vps-image.model.image_image_source_link_source import ImageImageSourceLinkSource
+from beget_openapi_vps-image.model.image_image_source_vps_source import ImageImageSourceVpsSource
+from beget_openapi_vps-image.model.image_price_calculation_info import ImagePriceCalculationInfo
+from beget_openapi_vps-image.model.image_region import ImageRegion
+from beget_openapi_vps-image.model.image_restore import ImageRestore
+from beget_openapi_vps-image.model.image_restore_image_request import ImageRestoreImageRequest
+from beget_openapi_vps-image.model.image_restore_image_response import ImageRestoreImageResponse
+from beget_openapi_vps-image.model.image_restore_image_response_error import ImageRestoreImageResponseError
+from beget_openapi_vps-image.model.image_update_image_request import ImageUpdateImageRequest
+from beget_openapi_vps-image.model.image_update_image_response import ImageUpdateImageResponse
+from beget_openapi_vps-image.model.image_update_image_response_error import ImageUpdateImageResponseError
