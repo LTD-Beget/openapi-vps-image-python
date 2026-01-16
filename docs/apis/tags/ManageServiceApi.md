@@ -457,15 +457,69 @@ with beget_openapi_vps-image.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = manage_service_api.ManageServiceApi(api_client)
 
-    # example, this endpoint has no required or optional parameters
+    # example passing only optional values
+    query_params = {
+        'offset': 1,
+        'limit': 1,
+        'filter': "filter_example",
+        'sort': "sort_example",
+    }
     try:
-        api_response = api_instance.manage_service_get_list()
+        api_response = api_instance.manage_service_get_list(
+            query_params=query_params,
+        )
         pprint(api_response)
     except beget_openapi_vps-image.ApiException as e:
         print("Exception when calling ManageServiceApi->manage_service_get_list: %s\n" % e)
 ```
 ### Parameters
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+query_params | RequestQueryParams | |
+accept_content_types | typing.Tuple[str] | default is ('application/json', ) | Tells the server the content type(s) that are accepted by the client
+stream | bool | default is False | if True then the response.content will be streamed and loaded from a file like object. When downloading a file, set this to True to force the code to deserialize the content to a FileSchema file
+timeout | typing.Optional[typing.Union[int, typing.Tuple]] | default is None | the timeout used by the rest client
+skip_deserialization | bool | default is False | when True, headers and body will be unset and an instance of api_client.ApiResponseWithoutDeserialization will be returned
+
+### query_params
+#### RequestQueryParams
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+offset | OffsetSchema | | optional
+limit | LimitSchema | | optional
+filter | FilterSchema | | optional
+sort | SortSchema | | optional
+
+
+# OffsetSchema
+
+## Model Type Info
+Input Type | Accessed Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+decimal.Decimal, int,  | decimal.Decimal,  |  | 
+
+# LimitSchema
+
+## Model Type Info
+Input Type | Accessed Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+decimal.Decimal, int,  | decimal.Decimal,  |  | 
+
+# FilterSchema
+
+## Model Type Info
+Input Type | Accessed Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+str,  | str,  |  | 
+
+# SortSchema
+
+## Model Type Info
+Input Type | Accessed Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+str,  | str,  |  | 
 
 ### Return Types, Responses
 
