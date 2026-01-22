@@ -1,4 +1,4 @@
-<a name="__pageTop"></a>
+<a id="__pageTop"></a>
 # beget_openapi_vps-image.apis.tags.manage_service_api.ManageServiceApi
 
 All URIs are relative to *https://api.beget.com*
@@ -15,7 +15,7 @@ Method | HTTP request | Description
 [**manage_service_update_image**](#manage_service_update_image) | **put** /v1/image/{id} | 
 
 # **manage_service_create_image**
-<a name="manage_service_create_image"></a>
+<a id="manage_service_create_image"></a>
 > ImageCreateImageResponse manage_service_create_image(image_create_image_request)
 
 
@@ -117,7 +117,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_delete_image**
-<a name="manage_service_delete_image"></a>
+<a id="manage_service_delete_image"></a>
 > ImageDeleteImageResponse manage_service_delete_image(id)
 
 
@@ -213,7 +213,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_get_calculation**
-<a name="manage_service_get_calculation"></a>
+<a id="manage_service_get_calculation"></a>
 > ImageGetCalculationResponse manage_service_get_calculation()
 
 
@@ -328,7 +328,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_get_download_link**
-<a name="manage_service_get_download_link"></a>
+<a id="manage_service_get_download_link"></a>
 > ImageGetDownloadLinkResponse manage_service_get_download_link(id)
 
 
@@ -424,7 +424,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_get_list**
-<a name="manage_service_get_list"></a>
+<a id="manage_service_get_list"></a>
 > ImageGetListResponse manage_service_get_list()
 
 
@@ -548,7 +548,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_get_region_list**
-<a name="manage_service_get_region_list"></a>
+<a id="manage_service_get_region_list"></a>
 > ImageGetRegionListResponse manage_service_get_region_list()
 
 
@@ -618,7 +618,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_restore_image**
-<a name="manage_service_restore_image"></a>
+<a id="manage_service_restore_image"></a>
 > ImageRestoreImageResponse manage_service_restore_image(idimage_restore_image_request)
 
 
@@ -730,7 +730,7 @@ Type | Description  | Notes
 [[Back to top]](#__pageTop) [[Back to API list]](../../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../../README.md#documentation-for-models) [[Back to README]](../../../README.md)
 
 # **manage_service_update_image**
-<a name="manage_service_update_image"></a>
+<a id="manage_service_update_image"></a>
 > ImageUpdateImageResponse manage_service_update_image(idimage_update_image_request)
 
 
