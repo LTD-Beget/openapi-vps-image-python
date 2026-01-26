@@ -12,12 +12,12 @@
 import unittest
 
 import beget_openapi_vps-image
-from beget_openapi_vps-image.model.image_image_source_vps_source import ImageImageSourceVpsSource
+from beget_openapi_vps-image.model.image_create_image_response_error_region_mismatch_error import ImageCreateImageResponseErrorRegionMismatchError
 from beget_openapi_vps-image import configuration
 
 
-class TestImageImageSourceVpsSource(unittest.TestCase):
-    """ImageImageSourceVpsSource unit test stubs"""
+class TestImageCreateImageResponseErrorRegionMismatchError(unittest.TestCase):
+    """ImageCreateImageResponseErrorRegionMismatchError unit test stubs"""
     _configuration = configuration.Configuration()
 
 
